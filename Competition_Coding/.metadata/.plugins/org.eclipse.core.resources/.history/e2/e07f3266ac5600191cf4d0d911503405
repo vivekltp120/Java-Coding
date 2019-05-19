@@ -1,0 +1,16 @@
+import java.util.regex.*;
+public class MyPattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("This class for pattern matching:"+args[0]);
+		for(int i=0;i<args[0].length();i++) {
+        Pattern p=Pattern.compile(args[i]);
+        Matcher m=p.matcher(args[1]);
+        while(m.find()) {
+             System.out.print(m.group());
+        }
+	}
+  }
+
+}

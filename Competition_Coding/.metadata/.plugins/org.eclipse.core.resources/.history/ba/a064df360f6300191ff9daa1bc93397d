@@ -1,0 +1,20 @@
+
+public class MyMultithreading extends Thread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyMultithreading mt=new MyMultithreading();
+		ChildThread ct1=new ChildThread();
+		ChildThread ct2=new ChildThread();
+		ChildThread ct3=new ChildThread();
+		ct1.setName("Jai");
+		ct2.setName("Shree");
+		ct3.setName("Ram");
+		ct1.start();
+		ct2.start();
+		ct3.start();
+		
+
+	}
+}
+	

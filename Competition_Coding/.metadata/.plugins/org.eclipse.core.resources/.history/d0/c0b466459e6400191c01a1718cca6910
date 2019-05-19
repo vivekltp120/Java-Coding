@@ -1,0 +1,8 @@
+
+public class AbstractDemoTest {
+	 public static void main(String[] args) {
+		    Animals a=new Animals("Dog");   
+	    	TestClass tc=new TestClass("Dog");
+	    	tc.getName();
+		}
+}

@@ -1,0 +1,7 @@
+
+public class AbstractDemoTest {
+	 public static void main(String[] args) {
+	    	TestClass tc=new TestClass("Dog");
+	    	System.out.println("Called base class method getName -"+tc.getName());
+		}
+}

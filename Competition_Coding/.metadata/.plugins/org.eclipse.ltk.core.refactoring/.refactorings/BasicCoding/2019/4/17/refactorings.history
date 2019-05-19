@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;viv.txt&apos; to &apos;BasicCoding/(default package)&apos;&#x0A;- Original project: &apos;BasicCoding&apos;&#x0A;- Destination element: &apos;BasicCoding/(default package)&apos;&#x0A;- Original element: &apos;viv.txt&apos;" description="Copy file" destination="/&lt;" element1="viv.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1556287128435" units="0" version="1.0"/>
+</session>

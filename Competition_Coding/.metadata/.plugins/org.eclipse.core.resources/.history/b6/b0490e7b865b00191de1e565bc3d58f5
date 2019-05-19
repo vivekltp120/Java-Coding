@@ -1,0 +1,26 @@
+
+public class Various_Concept {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    Various_Concept vc=new Various_Concept();
+		vc.create2Dmatrix();	
+
+	}
+	
+	
+	public void create2Dmatrix() {
+		System.out.println("In the 2D matrix ");
+		int [][] mat=new int[10][10];
+		System.out.println(mat.length);
+		int k=0;
+		for(int i=0;i<=mat.length;i++) {
+			for(int j=0;j<=mat.length;j++) {
+				mat[i][j]=k++;
+			}
+		}
+		System.out.println(mat.toString());
+		
+	}
+
+}

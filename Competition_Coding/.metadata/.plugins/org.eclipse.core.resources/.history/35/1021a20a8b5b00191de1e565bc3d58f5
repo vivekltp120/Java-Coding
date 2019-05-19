@@ -1,0 +1,71 @@
+import java.util.*;
+public class Various_Concept {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    Various_Concept vc=new Various_Concept();
+//		vc.create2Dmatrix();
+//		vc.hash_map();
+		vc.LinkedList();
+		
+	}
+	
+	public void hash_map() {
+		HashMap<String,Integer> hm=new HashMap<>();
+		hm.put("vivek", 1);
+		hm.putIfAbsent("vivek", 2);
+		hm.put("kumar", 1);
+		hm.put("chaurasia", 3);
+		System.out.println(hm.get("vivek"));
+		System.out.println(hm.containsKey("kumar"));
+		
+	}
+	
+	public void LinkedList() {
+		LinkedList<Integer> ll=new LinkedList<>();
+		for(int i=0;i<10;i++) {
+			if (i%2==0) {
+				ll.add(i);
+				continue;
+			}
+			ll.addLast(i);
+		}
+		System.out.println(ll.toString());
+		for(int i=0;i<ll.size();i++) {
+			ll.removeLast();
+			System.out.println(ll.toString());
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	public void create2Dmatrix() {
+		System.out.println("In the 2D matrix ");
+		int [][] mat=new int[10][10];
+		System.out.println(mat.length);
+		int k=0;
+		
+		for(int i=0;i<mat.length;i++) {
+			for(int j=0;j<mat.length;j++) {
+				mat[i][j]=k++;
+			}
+		}
+		for(int i=0;i<mat.length;i++) {
+			for(int j=0;j<mat.length;j++) {
+				
+				System.out.println(mat[i][j]);
+			}
+		}
+		
+	}
+
+}

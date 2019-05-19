@@ -1,0 +1,31 @@
+class TestClass{
+
+
+
+
+
+
+class Animals{
+    void voice() {
+    	System.out.println("Voice of Animal - ");
+    }
+}
+
+
+
+abstract class AbstractDemo extends Animals {
+   AbstractDemo(Animals a,String s) {
+	   super();
+	   System.out.println("This is AbstractDemo class");
+   }
+	
+   public void voice(String v) {
+	   System.out.println("Voice in AbstractDemo");
+   }
+   public void weight(int w) {
+		System.out.println("Weight in AbstractDemo");
+	}
+   
+   abstract void living(String s);
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Various_Concept.tree_set()&apos; to &apos;hashset&apos;&#x0A;- Original project: &apos;BasicCoding&apos;&#x0A;- Original element: &apos;Various_Concept.tree_set()&apos;&#x0A;- Renamed element: &apos;Various_Concept.hashset()&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;tree_set&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/&lt;{Various_Concept.java[Various_Concept~tree_set" name="hashset" references="true" stamp="1554900492889" version="1.0"/>
+</session>
